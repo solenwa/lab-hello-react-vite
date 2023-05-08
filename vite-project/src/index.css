@@ -1,0 +1,97 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: white;
+  background-color: #1E2131;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+}
+
+.header {
+  text-align: left;
+  padding: 3% 5%;
+  height: 70vh;
+}
+
+.header h1 {
+  font-size: 4rem;
+  width: 50%;
+  margin: 0;
+  line-height: 5rem;
+}
+
+.header p {
+  width: 40%;
+}
+
+button {
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  font-size: 1em;
+  font-weight: 900;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-top: 8%;
+}
+
+.features {
+  padding: 3% 5%;
+  display: flex;
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+
+.features img {
+  height: 15vh;
+}
+
+.features p {
+  color: grey;
+  margin: 0;
+  width: 90%;
+  align-self: baseline
+}
+
+.box {
+  padding: 2%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box h3 {
+  width: 100%;
+}
